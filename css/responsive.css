@@ -427,4 +427,11 @@
   .futinfo .info:nth-child(2) {
     opacity: 0.5035;
   }
+
+  .blackback {
+    background-color: #1d1c1e;
+    height: 400px;
+    position: absolute;
+    width: 100%;
+  }
 }

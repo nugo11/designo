@@ -323,6 +323,12 @@
 
   .loc {
     background-image: url(../img/loc-mob.png);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 15% 30% 15% 30%;
   }
 
   .locbox .loc {

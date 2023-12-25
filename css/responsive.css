@@ -1,0 +1,430 @@
+@media (width < 1370px) { 
+ .loc p {
+	width: 100%;
+}
+}
+
+@media (width < 1210px) {
+  .res-sldr {
+    background-position: right;
+  }
+
+  .slider ul h1 {
+    font-size: 40px;
+  }
+
+  .intro .left {
+    width: 70%;
+  }
+
+  .intro .left h1 {
+    font-size: 30px;
+  }
+
+  .designs {
+    grid-template-columns: auto auto;
+  }
+
+  .slider-web ul {
+    width: 40%;
+  }
+
+  .loc-boxses {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .locbox {
+    grid-template-columns: auto;
+    height: initial
+  }
+
+  .locbox .map {
+    grid-row: 1;
+  }
+}
+
+@media (width < 1024px) {
+  header {
+    padding: 50px;
+  }
+  .logo {
+    width: 157px;
+    height: 27px;
+    background-repeat: no-repeat;
+  }
+
+  .topnav ul li a {
+    font-size: 14px;
+  }
+
+  .res-sldr {
+    background-image: url(../img/resp-Oval.png);
+    background-position: center;
+    align-items: center;
+    text-align: center;
+    justify-content: normal;
+    height: 910px;
+  }
+
+  .slider ul {
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    margin-top: 50px;
+    width: 70%;
+  }
+
+  .projects {
+    grid-template-columns: auto;
+    gap: 20px;
+  }
+
+  .designs {
+    grid-template-columns: auto;
+  }
+
+  .prod {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    place-items: center;
+  }
+
+  .prod h1 {
+    align-self: end;
+  }
+
+  .prod p {
+    align-self: start;
+  }
+
+  .prod img {
+    grid-row: 1 / 3;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 15px;
+  }
+
+  .web {
+    grid-row: 1;
+  }
+
+  .projects-2 {
+    grid-template-columns: auto;
+  }
+
+  .gridbox {
+    flex-direction: column;
+  }
+
+  .box1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: normal;
+    text-align: left;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+
+  .slider-about {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto;
+    height: 100%;
+    place-items: center;
+   
+  }
+
+  .slider-about ul {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 0;
+	padding: 50px;
+    text-align: center;
+	align-self: center;
+    width: 70%;
+  }
+
+  .slider-about img {
+    grid-row: 1 / 4;
+    grid-column: 1;
+    align-self: start;
+    height: 316px;
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 0;
+  }
+
+  .contact-us {
+    height: 100%;
+    text-align: center;
+  }
+
+  .contact-us ul, .contact-us form {
+    width: 70%;
+    margin-top: 20px;
+  }
+
+  .contact-us form {
+    margin-right: 0;
+  }
+
+  .contact-us form ul {
+    justify-content: end;
+    align-items: center;
+  }
+
+  main {
+    padding: 50px;
+  }
+
+
+  .second ul {
+    margin-right: 0;
+  }
+
+  .second img {
+    border-bottom-left-radius: 0;
+  }
+
+  .about-page > .box1 {
+    grid-template-columns: auto;
+    place-items: center;
+  }
+
+  .box1 img {
+    grid-row: 1 / 3;
+  }
+
+  .intro {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    height: 350px;
+    width: 90%;
+  }
+
+  .intro .left {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .intro .left h1,
+  .intro .left p {
+    width: 90%;
+  }
+
+  .div-2 {
+    top: 250px;
+  }
+
+  .contact-gridbox .box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .rect-2 {
+    display: none;
+  }
+
+  .rect-1 {
+    display: none;
+  }
+
+  .contact-footer {
+    top: 10px;
+  }
+
+}
+
+@media (width < 683px) {
+  header {
+    padding: 0;
+    position: unset;
+  }
+  .topbar {
+    height: 96px;
+    margin-bottom: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .topnav {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .slider {
+    border-radius: 0;
+  }
+
+  .slider ul h1 {
+    font-size: 32px;
+  }
+
+  .slider-web {
+    border-radius: 0;
+  }
+
+  .slider-web ul {
+    width: 60%;
+  }
+  
+    .slider-web ul h1 {
+  font-size: 32px;
+  }
+
+
+  .slider-about, .slider-about img {
+    border-radius: 0;
+  }
+
+  .slider-about ul {
+    width: 90%;
+  }
+
+  .slider-about ul h1 {
+    font-size: 32px;
+  }
+
+  .slider-about ul p {
+    font-size: 15px;
+  }
+  
+  .contact-us form ul {
+	  justify-content: center;
+  }
+
+  .third {
+    margin-bottom: 100px;
+  }
+
+  main {
+    padding: 0;
+    gap: 50px;
+  }
+
+  .projects {
+    padding: 50px;
+  }
+  
+  .locbox {
+    gap: 0;
+  }
+
+  .loc {
+    background-image: url(../img/loc-mob.png);
+  }
+
+  .locbox .loc {
+    border-radius: 0;
+  }
+  
+
+  .locbox .map {
+    transform: scale(105%);
+	position: relative;
+  }
+  
+  .proj h1 {
+	  font-size: 28px;
+  }
+
+  .designs {
+    grid-template-columns: auto;
+    padding: 50px;
+  }
+
+  .projects-2 {
+    padding: 50px;
+    height: 650px;
+  }
+
+  .prod {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdf3f0;
+    border-radius: 15px;
+    min-height: 478px;
+    transition: 0.5s;
+  }
+
+  .prod h1 {
+    align-self: center;
+  }
+
+  .prod p {
+    align-self: center;
+  }
+
+  .prod img {
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0;
+  }
+
+  .gridbox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 5;
+    padding: 50px;
+  }
+
+  .box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .fotmenu {
+    grid-template-columns: auto;
+  }
+
+  .futnav {
+    border-top: 1px solid #3a3a3a;
+    width: 90%;
+  }
+
+  .futnav ul {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .flogo {
+    margin-top: 50px;
+  }
+
+  .futinfo {
+    border: none;
+    text-align: center;
+    grid-template-columns: 250px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    gap: 40px;
+  }
+
+  .futinfo .info:nth-child(1),
+  .futinfo .info:nth-child(2) {
+    opacity: 0.5035;
+  }
+}

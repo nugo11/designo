@@ -724,6 +724,10 @@ footer {
   color: #ffad9b;
 }
 
+.info a {
+  color: #8e8e8f;
+}
+
 /**** documentation ****/
 
 .header {
